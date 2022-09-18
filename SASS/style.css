@@ -13,6 +13,41 @@
 
 .foot {
   background-color: #8CBF3F;
+}
+
+.index {
+  background-color: #F2F2F2;
+}
+
+.fqa {
+  background-color: #F2CC0F;
+  color: #9453A6;
   font-family: "Roboto", sans-serif;
+}
+
+.fqalines {
+  background-color: red;
+  padding: 0.5%;
+  border-radius: 50px;
+  -webkit-box-shadow: 5px 10px 18px #888888;
+          box-shadow: 5px 10px 18px #888888;
+}
+
+#about {
+  background-color: #9453A6;
+  margin-top: 10%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2%;
+}
+
+p {
+  font-family: "Henny Penny", cursive;
+}
+
+#contact {
+  background-image: url(/IMG/pexels-photo-2263410.jpeg);
 }
 /*# sourceMappingURL=style.css.map */

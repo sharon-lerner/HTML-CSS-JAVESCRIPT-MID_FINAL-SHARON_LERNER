@@ -20,5 +20,43 @@
 
 .foot{
    background-color: $color-green;
+   // font-family: $reg-text;
+}
+
+.index{
+   background-color: $color-gray;
+}
+
+.fqa{
+   background-color: $color-orange;
+   color: $color-purple;
    font-family: $reg-text;
+}
+
+
+.fqalines{
+   background-color: red;
+   padding: 0.5%;
+   border-radius: 50px ;
+   box-shadow: 5px 10px 18px #888888;
+   
+}
+
+#about{
+   background-color: $color-purple;
+   margin-top: 10%;
+}
+
+h1{
+   text-align: center;
+   margin-top: 2%;
+}
+
+p{
+   font-family: $spc-text;
+
+}
+
+#contact{
+   background-image: url(/IMG/pexels-photo-2263410.jpeg);
 }
