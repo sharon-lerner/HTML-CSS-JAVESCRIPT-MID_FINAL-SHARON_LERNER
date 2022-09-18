@@ -7,7 +7,12 @@
   height: 100px;
 }
 
+.spons {
+  color: #0D0D0D;
+}
+
 .foot {
   background-color: #8CBF3F;
+  font-family: "Roboto", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
