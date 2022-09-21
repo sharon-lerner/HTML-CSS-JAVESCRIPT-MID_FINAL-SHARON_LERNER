@@ -50,4 +50,26 @@ p {
 #contact {
   background-image: url(/IMG/pexels-photo-2263410.jpeg);
 }
+
+img {
+  max-width: 100%;
+}
+
+.gallery {
+  background-color: #dbddf1;
+  padding: 80px 0;
+}
+
+.gallery img {
+  background-color: #ffffff;
+  padding: 15px;
+  width: 100%;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+#gallery-modal .modal-img {
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */

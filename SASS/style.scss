@@ -6,6 +6,7 @@
 .container-sm{
    background-color: $color-purple; 
    font-family: $headline-text;
+   
 
 }
 
@@ -20,6 +21,7 @@
 
 .foot{
    background-color: $color-green;
+   
    // font-family: $reg-text;
 }
 
@@ -59,4 +61,25 @@ p{
 
 #contact{
    background-image: url(/IMG/pexels-photo-2263410.jpeg);
+}
+
+
+// start
+
+img{
+	max-width: 100%;
+}
+.gallery{
+	background-color: #dbddf1;
+	padding: 80px 0;
+}
+.gallery img{
+	background-color: #ffffff;
+	padding: 15px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+#gallery-modal .modal-img{
+	width: 100%;
 }

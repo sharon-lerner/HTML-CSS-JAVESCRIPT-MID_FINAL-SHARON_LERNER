@@ -21,11 +21,11 @@
 
     <link rel="stylesheet" href="/SASS/style.css">
     <title>Media</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- secend navber starts here -->
     <div class="navwrap">
-
+      
       <nav class="navbar fixed-top navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="index-page.html">
@@ -60,7 +60,51 @@
   
   <!-- secend navber ends here -->
     <h1>media</h1>
+    
+    <!-- test start -->
+    
+    <section class="gallery min-vh-100">
+      <div class="container-lg">
+        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+          <div class="col">
+            <img src="/IMG/pexels-photo-1763075.jpeg" class="gallery-item" alt="gallery">
+          </div>
+          <div class="col">
+               <img src="/IMG/istock-1368457124.jpg" class="gallery-item" alt="gallery">
+              </div>
+              <div class="col">
+                <img src="/IMG/pexels-photo-2263410.jpeg" class="gallery-item" alt="gallery">
+              </div>
+              <div class="col">
+               <img src="/IMG/pexels-photo-2747446.webp" class="gallery-item" alt="gallery">
+            </div>
+            <div class="col">
+               <img src="/IMG/pexels-photo-3171837.webp" class="gallery-item" alt="gallery">
+            </div>
+            <div class="col">
+               <img src="/IMG/MardiGras_Beads22.jpg" class="gallery-item" alt="gallery">
+            </div>
+         </div>
+      </div>
+   </section>
+ 
+ <!-- Modal -->
+ <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered modal-lg">
+     <div class="modal-content">
+       <div class="modal-header">
+         <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+          <img src="img/1.jpg" class="modal-img" alt="modal img">
+       </div>
+     </div>
+   </div>
 
+    <!-- test end -->
 
+    
+    <script src="/JAVASCRIPT/app.js"></script>
 </body>
 </html>
