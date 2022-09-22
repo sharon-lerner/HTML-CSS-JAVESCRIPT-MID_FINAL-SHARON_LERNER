@@ -1,3 +1,9 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .container-sm {
   background-color: #9453A6;
   font-family: "Pattaya", sans-serif;
@@ -13,6 +19,7 @@
 
 .foot {
   background-color: #8CBF3F;
+  font-family: "Roboto", sans-serif;
 }
 
 .index {
@@ -22,7 +29,6 @@
 .fqa {
   background-color: #F2CC0F;
   color: #9453A6;
-  font-family: "Roboto", sans-serif;
 }
 
 .fqalines {
@@ -35,7 +41,6 @@
 
 #about {
   background-color: #9453A6;
-  margin-top: 10%;
 }
 
 h1 {
@@ -78,5 +83,9 @@ img {
 
 #gallery-modal .modal-img {
   width: 100%;
+}
+
+.nini {
+  margin-bottom: 10%;
 }
 /*# sourceMappingURL=style.css.map */

@@ -12,6 +12,7 @@
 
 .navwrap{
    height: 100px;
+   
 }
 
 .spons{
@@ -22,7 +23,7 @@
 .foot{
    background-color: $color-green;
    
-   // font-family: $reg-text;
+   font-family: $reg-text;
 }
 
 .index{
@@ -32,7 +33,7 @@
 .fqa{
    background-color: $color-orange;
    color: $color-purple;
-   font-family: $reg-text;
+   // font-family: $reg-text;
 }
 
 
@@ -46,7 +47,7 @@
 
 #about{
    background-color: $color-purple;
-   margin-top: 10%;
+   // margin-top: 10%;
 }
 
 h1{
@@ -91,3 +92,7 @@ img{
    width: 100%;
 }
 // sass for media page end
+
+.nini{
+   margin-bottom: 30%;!important
+}
