@@ -43,6 +43,13 @@ h1 {
   margin-top: 2%;
 }
 
+.lets {
+  text-align: center;
+  color: #dbddf1;
+  font-family: "Pattaya", sans-serif;
+  text-decoration: underline;
+}
+
 p {
   font-family: "Henny Penny", cursive;
 }
