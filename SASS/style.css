@@ -1,9 +1,3 @@
-
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 .container-sm {
   background-color: #9453A6;
   font-family: "Pattaya", sans-serif;
@@ -85,7 +79,7 @@ img {
   width: 100%;
 }
 
-.nini {
-  margin-bottom: 10%;
+.textwrap {
+  margin-bottom: 30%;
 }
 /*# sourceMappingURL=style.css.map */
